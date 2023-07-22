@@ -1,0 +1,49 @@
+.profieSection{
+    display: flex;
+   
+}
+.mainContainer{
+    background-color: #212121;
+    color: #fff;
+}
+.profileBarmain{
+    flex: 8;
+}
+.bottomprofilebar{
+    display: flex;
+}
+.topbarprofile{
+    background-color: #212121;
+    color: #fff;
+}
+.profileframe{
+    height: 320px;
+    position: relative;
+}
+.profleupperimg{
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
+.profilelowerimg{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: 160px;
+    left: 495px;
+    z-index: 100;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    object-fit: cover;
+}
+.profileName{
+    display: flex;
+    justify-content: center;
+}
+.profileotherinfo{
+    display: flex;
+    justify-content: center;
+}
+.profileinfo{
+    padding: 10px;
+}

@@ -1,0 +1,18 @@
+.rightbarlist{
+    margin-bottom: 10px;
+}
+.onlineicons{
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: green;
+    position: absolute;
+    left: 28px;
+    top: 10px;
+    border: 1px solid #fff;
+}
+.rightbarindividualid{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

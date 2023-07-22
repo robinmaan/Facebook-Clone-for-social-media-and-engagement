@@ -1,0 +1,82 @@
+.posttop{
+    height: 80px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+    padding: 0 15px;
+    border-radius: 5px;
+}
+.postWrapper{
+    padding: 20px 10px;
+    width: 100%;
+    background-color: #212121;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: -2px 0px 44px -10px rgba(9,9,10,0.75);
+    -webkit-box-shadow: -2px 0px 44px -10px rgba(9,9,10,0.75);
+    -moz-box-shadow: -2px 0px 44px -10px rgba(9,9,10,0.75);
+}
+
+.postbottomleft{
+    padding: 20px 0;
+}
+.postbottomright{
+    display: flex;
+    margin-left: 350px ;
+    justify-content: flex-end;
+}
+
+.feedimg{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.Imgfeed{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+
+    object-fit: cover;
+}
+.postLeft{
+    display: flex;
+    align-items: center;
+    
+}
+.postbottomleft{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.postscontainer{
+   padding: 10px;
+   background-color: #423f3f;
+}
+.postTopright{
+    float: right;
+    cursor: pointer;
+}
+.postName{
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 10px;
+    font-family: 'Roboto';
+}
+.postDate{
+    font-size: 12px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 10px;
+}
+.likebbtn{
+    transition: .2s ease;
+    overflow: hidden;
+    
+}
+
+
+.postText{
+    padding-bottom: 10px;
+}

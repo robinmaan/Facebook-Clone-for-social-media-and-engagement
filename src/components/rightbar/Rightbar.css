@@ -1,0 +1,33 @@
+.rightcontainer{
+    flex: 1;
+    padding: 10px 0;
+    height: calc(99vh - 50px);
+    position: sticky;
+    top:0;
+    background-color: #212121;
+    color: #fff;
+    overflow-y: scroll;
+}
+.girimg{
+    font-size: 30px;
+}
+.rightbarimg{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.rightbaridimgaes{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.rightbarfriendslists{
+    padding: 15px 10px;
+    margin: 0;
+    position: relative;
+    list-style-type: none;
+    
+}
+
+

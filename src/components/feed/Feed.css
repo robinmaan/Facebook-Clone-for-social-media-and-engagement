@@ -1,0 +1,10 @@
+.feedcontainer{
+    flex: 3;
+    height: calc(100vh - 50px);
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    
+}
+.feedgaps{
+    margin-bottom: 5px;
+}
